@@ -1,0 +1,321 @@
+/*
+
+----------------Fonts------------------
+
+
+font-family: 'Alex Brush', cursive;
+
+
+
+*/
+
+@font-face {
+    font-family: Alex; 
+    src: url(../Assets/Fonts/Alex_Brush/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: Babylonica;
+    src: url(../Assets/Fonts/Babylonica/Babylonica-Regular.ttf);
+}
+
+@font-face {
+    font-family: BadScript; 
+    src: url(../Assets/Fonts/Bad_Script/BadScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ballet;
+    src: url(../Assets/Fonts/Ballet/Ballet-Regular-VariableFont_opsz.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: BerkshireSwash;
+    src: url(../Assets/Fonts/Bungee_Shade/BungeeShade-Regular.ttf);
+}
+
+@font-face {
+    font-family: BungeeShade;
+    src: url(../Assets/Fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf);
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url(../Assets/Fonts/Caveat/Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: CevicheOne;
+    src: url(../Assets/Fonts/Ceviche_One/CevicheOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Chewy;
+    src: url(../Assets/Fonts/Chewy/Chewy-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: ClimateCrisis;
+    src: url(../Assets/Fonts/Climate_Crisis/ClimateCrisis-Regular-VariableFont_YEAR.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: CodystarLight;
+    src: url(../Assets/Fonts/Codystar/Codystar-Light.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: CodystarReg;
+    src: url(../Assets/Fonts/Codystar/Codystar-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: Coiny;
+    src: url(../Assets/Fonts/Coiny/Coiny-Regular.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfantBold;
+    src: url(../Assets/Fonts/Cormorant_Infant/CormorantInfant-Bold.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfantBoldItalic;
+    src: url(../Assets/Fonts/Cormorant_Infant/CormorantInfant-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfantItalic;
+    src: url(../Assets/Fonts/Cormorant_Infant/CormorantInfant-Italic.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfantLight;
+    src: url(../Assets/Fonts/Cormorant_Infant/CormorantInfant-Light.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfantLightItalic;
+    src: url(../Assets/Fonts/Cormorant_Infant/CormorantInfant-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfantMedium;
+    src: url(../Assets/Fonts/Cormorant_Infant/CormorantInfant-Medium.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfantMediumItalic;
+    src: url(../Assets/Fonts/Cormorant_Infant/CormorantInfant-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfantRegular;
+    src: url(../Assets/Fonts/Cormorant_Infant/CormorantInfant-Regular.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfantSemiBold;
+    src: url(../Assets/Fonts/Cormorant_Infant/CormorantInfant-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfantSemiBoldItalic;
+    src: url(../Assets/Fonts/Cormorant_Infant/CormorantInfant-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: Creepster;
+    src: url(../Assets/Fonts/Creepster/Creepster-Regular.ttf);
+}
+
+@font-face {
+    font-family: DancingScript;
+    src: url(../Assets/Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: FastOne; 
+    src: url(../Assets/Fonts/Faster_One/FasterOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fasthand;
+    src: url(../Assets/Fonts/Fasthand/Fasthand-Regular.ttf);
+}
+
+@font-face {
+    font-family: FrederickaTheGreat;
+    src: url(../Assets/Fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+    font-family: HomemadeApple;
+    src: url(../Assets/Fonts/Homemade_Apple/HomemadeApple-Regular.ttf);
+}
+
+@font-face {
+    font-family: IndieFlower;
+    src: url(../Assets/Fonts/Indie_Flower/IndieFlower-Regular.ttf);
+}
+
+@font-face {
+    font-family: Langar; 
+    src: url(../Assets/Fonts/Langar/Langar-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: Lobster;
+    src: url(../Assets/Fonts/Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: MarckScript; 
+    src: url(../Assets/Fonts/Marck_Script/MarckScript-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: Monofett;
+    src: url(../Assets/Fonts/Monofett/Monofett-Regular.ttf);
+}
+
+@font-face {
+    font-family: Monoton;
+    src: url(../Assets/Fonts/Monoton/Monoton-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: MooLahLah;
+    src: url(../Assets/Fonts/Moo_Lah_Lah/MooLahLah-Regular.ttf);
+}
+
+@font-face {
+    font-family: MsMadi; 
+    src: url(../Assets/Fonts/Ms_Madi/MsMadi-Regular.ttf);
+}
+
+@font-face {
+    font-family: Niconne; 
+    src: url(../Assets/Fonts/Niconne/Niconne-Regular.ttf);
+}
+
+@font-face {
+    font-family: NotoEmoji;
+    src: url(../Assets/Fonts/Noto_Emoji/NotoEmoji-VariableFont_wght.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: Playball;
+    src: url(../Assets/Fonts/Playball/Playball-Regular.ttf);
+}
+
+
+@font-face {
+    /* New */
+    font-family: RampartOne;
+    src: url(../Assets/Fonts/Rampart_One/RampartOne-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: RedactedScriptBold;
+    src: url(../Assets/Fonts/Redacted_Script/RedactedScript-Bold.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: RedactedScriptBoldLight;
+    src: url(../Assets/Fonts/Redacted_Script/RedactedScript-Light.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: RedactedScriptBoldReg;
+    src: url(../Assets/Fonts/Redacted_Script/RedactedScript-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: Rubik80sFade;
+    src: url(../Assets/Fonts/Rubik_80s_Fade/Rubik80sFade-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: RubikDirt;
+    src: url(../Assets/Fonts/Rubik_Dirt/RubikDirt-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: RubikGemstones;
+    src: url(../Assets/Fonts/Rubik_Gemstones/RubikGemstones-Regular.ttf);
+}
+
+@font-face {
+    font-family: RubikIso; 
+    src: url(../Assets/Fonts/Rubik_Iso/RubikIso-Regular.ttf);
+}
+
+@font-face {
+    font-family: RubikMicrobe; 
+    src: url(../Assets/Fonts/Rubik_Microbe/RubikMicrobe-Regular.ttf);
+}
+
+@font-face {
+    font-family: RubikMoonrock; 
+    src: url(../Assets/Fonts/Rubik_Moonrock/RubikMoonrocks-Regular.ttf);
+}
+
+@font-face {
+    font-family: RubikPuddles;
+    src: url(../Assets/Fonts/Rubik_Puddles/RubikPuddles-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: RubikVinyl;
+    src: url(../Assets/Fonts/Rubik_Vinyl/RubikVinyl-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: Rye;
+    src: url(../Assets/Fonts/Rye/Rye-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: Sail;
+    src: url(../Assets/Fonts/Sail/Sail-Regular.ttf);
+}
+
+@font-face {
+    /* New */
+    font-family: SeaweedScript;
+    src: url(../Assets/Fonts/Seaweed_Script/SeaweedScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: SquarePeg;
+    src: url(../Assets/Fonts/Square_Peg/SquarePeg-Regular.ttf);
+}
+
+@font-face {
+    font-family: WaterBrush;
+    src: url(../Assets/Fonts/Water_Brush/WaterBrush-Regular.ttf);
+}
+
+
+

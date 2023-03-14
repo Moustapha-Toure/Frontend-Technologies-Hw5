@@ -1,0 +1,92 @@
+/* Even though one-page, prefer to organize for easier future access */
+@import "./globalShared.css";
+@import "./heroBanner.css";
+@import "./revolving.css";
+@import "./navbar.css";
+@import "./techExp.css";
+/* So that the home has access to these styles as well */
+
+@keyframes livePage {
+    from {
+        background-color: #05010a;
+
+    }
+
+    to {
+        background-color: #27000a;
+
+    }
+}
+
+/* @media {
+    Later needs media query for phone sizes
+} */
+
+#homeBody {
+    width: 100vw;
+    margin: 0%;
+    background-color: #05010a;
+    /* background-image: url("../Assets/Images/Nebula.jpg"); */
+    animation: livePage 5s infinite linear;
+    background-size: cover;
+    overflow-x: hidden;
+    color: antiquewhite;
+}
+
+
+#Introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#basicIntro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.profileContainer {
+    transform: rotate(-45deg);
+    height: 50vh;
+    width: 50vh;
+    overflow: hidden;
+
+}
+
+.profilePic {
+    background-size: cover;
+    transform: rotate(45deg);
+    height: 50vh;
+    width: 50vh;
+    box-shadow: 0px 0px 500px #ffffff, 0px 0px 500px #ffffff, 0px 0px 500px #ffffff, 0px 0px 500px #ffffff, 0px 0px 500px #ffffff, 0px 0px 500px #ffffff, 0px 0px 500px #ffffff, 0px 0px 500px #ffffff, 0px 0px 500px #ffffff, 0px 0px 500px #ffffff, 0px 0px 500px #ffffff, 0px 0px 500px #ffffff;
+    border-radius: 300px;
+
+}
+
+.profileDescription {
+    color: #ffffff;
+}
+
+.siteContent {
+    display: flex;
+    flex-direction: column;
+}
+
+#academic {
+    background-image: url("../Assets/Images/AcademicImplentation.png");
+    background-size: cover;
+    width: 100vw;
+    height: 150vh;
+}
+
+#social {
+    background-image: url("../Assets/Images/SocialImplentation.png");
+    background-size: cover;
+    width: 100vw;
+    height: 150vh;
+}

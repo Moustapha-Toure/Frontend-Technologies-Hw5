@@ -1,0 +1,37 @@
+@import "./Fonts.css";
+
+/* No need to repeat styles, usually shared styles go here and are accessible from any page */
+
+
+body::-webkit-scrollbar {
+    width: 0em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover{
+    opacity: 1;
+    font-style: italic;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.coverPage {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

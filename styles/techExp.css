@@ -1,0 +1,139 @@
+@keyframes sway {
+    from {
+        transform: rotate(-45deg) translateX(0);
+    }
+    to {
+        transform: rotate(-40deg) translateX(20px);
+    }
+}
+
+#technicalExperience {
+    width: 100%;
+    overflow: hidden;
+    padding: 5%;
+}
+
+#techExperienceTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 50vh;
+    margin: 40vh 5vw;
+    transform: rotate(-45deg);
+    background-color: white;
+    /* justify-self: center; */
+    position: absolute;
+    animation: sway 1s infinite alternate linear;
+    cursor: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#techExperienceTitle:hover {
+    width: 28vw;
+    height: 55vh;
+    transition: all 0.8s ease-in-out;
+}
+
+.deg45Container {
+    transform: rotate(45deg);
+    font-size: 2vw;
+    font-family: Coiny;
+}
+
+.deg45Txt {
+    margin: 5% 0;
+}
+
+#techTxt {
+    transform: rotate(-5deg);
+    text-decoration-line: underline;
+    color: black;
+}
+
+#expTxt {
+    transform: rotate(-25deg);
+    font-style: italic;
+    color: antiquewhite;
+}
+
+#techExperienceContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.anExperience {
+    font-size: 1vw;
+    border-radius: 300px;
+    text-align: center;
+    font-family: Lobster;
+    transition: all 0.1s;
+}
+
+
+.anExperience:hover {
+    box-shadow: 10vw 10vh 20px;
+    font-size: 1.5vw;
+    font-family: Creepster;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.expPoz {
+    font-size: 1.5vw;
+}
+
+.expComp {
+    font-size: 1.25vw;
+}
+
+.expDate {
+    font-size: 0.75vw;
+}
+
+#exp1 {
+    margin: 1vh 0vw 0vh 5vw;
+    padding: 10vh 5vw;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.expComp{
+    font-family: MsMadi;
+    color: black;
+    font-weight: bold;
+}
+
+#exp2 {
+    padding: 10vh 12vw;
+    background-color: #4b4b4b;
+    color: orangered;
+    margin: 10vh 10vw 5vh 1vw;
+}
+
+#exp3 {
+    padding: 10vh 10vw;
+    background-color: antiquewhite;
+    color: black;
+    margin: 0vh 25vw 5vh 0vw;
+}
+
+#exp4 {
+    padding: 5vh 5vw;
+    background-color: #4b4b4b;
+    color: orangered;
+    margin: 0vh 45vw 0vh 0vw;
+}
+
+#exp5 {
+    padding: 5vh 20vw;
+    background-color: antiquewhite;
+    color: black;
+    margin: 1vh 55vw 0vh 5vw;
+}
+
+.expTxt {
+    margin: 0;
+}

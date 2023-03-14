@@ -1,0 +1,132 @@
+@keyframes boxGlow {
+    from {
+        box-shadow: 2vw 2vw 5px whitesmoke, 3vw 3vw 5px whitesmoke, 2vw 2vw 5px whitesmoke;
+
+    }
+
+    to {
+        box-shadow: 1vw 1vw 10px #372767, 0vw 0vw 10px #292929, 0vw 0vw 10px #372767;
+
+    }
+}
+
+@keyframes picAnimate {
+    from {
+        transform: rotate(-45deg) rotateY(0) translateX(15vw);
+        filter: contrast(1.5) saturate(1.15) brightness(1.25);
+
+
+    }
+
+    to {
+        transform: rotate(-35deg) rotateY(-90deg) translateX(14vw);
+        filter: contrast(1.5) saturate(1) brightness(1);
+
+
+    }
+}
+
+
+#heroWelcome {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120vh;
+}
+
+.heroPicContainer {
+    height: 135vh;
+    width: 50vw;
+    background-color: white;
+    transform: translateX(-25vw) rotate(45deg);
+    box-shadow: 2vw 3vw 3vh whitesmoke, 0vw 1vw 1vh whitesmoke;
+    animation: boxGlow 3s infinite 0s alternate linear;
+    overflow: hidden;
+    cursor: none;
+}
+
+#heroPic {
+    width: auto;
+    height: 100%;
+    animation: picAnimate 3s infinite 0s alternate linear;
+    background-image: url("../Assets/Images/SuitHeadShot.jpg");
+    filter: contrast(1.5) saturate(1.15) brightness(1.15);
+    background-position: center;
+    background-size: cover;
+    transform: rotate(-45deg) translateX(15vw);
+}
+
+#hiddenTxt {
+    transform: rotate(-45deg) translateX(5vw) translateY(50vh);
+    font-size: 2vw;
+    font-family: Lobster;
+    color: black;
+    position: absolute;
+    text-align: center;
+}
+
+#heroTxtContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    height: 100vh;
+}
+
+#heroLine {
+    border-top: 2vh solid white;
+    border-radius: 80px 0px 0px 80px;
+    width: 80%;
+    margin: 0;
+}
+.noSlant:hover {
+    font-style: normal !important;
+    cursor: none !important;
+}
+.heroTxt {
+    font-size: 8vw;
+    font-weight: lighter;
+    margin: 0;
+}
+
+
+#heroFirst {
+    font-family: RubikMoonrock;
+
+}
+
+#heroLast {
+    font-family: Sail;
+    
+}
+
+#lastLink {
+    transition: all 0.5s ease !important;
+
+}
+
+#lastLink:hover {
+    transition: all 0.1s ease !important;
+    text-decoration-line: underline;
+
+}
+
+
+/* RubikDirt/Sail , */
+
+
+/* 
+Maybe Fonts
+Coiny
+
+top- Sail, Rye, RubikVinyl, RubikGemstones, RubikDirt, Rubik80sFade, RampartOne
+
+Handwritting- SeaweedScript, 
+
+Italic- Playball, Lobster, CevicheOne
+
+Rubiki - MooLahLah
+
+Display- RampartOne, Monofett, Creepster, Coiny, CodystarReg, ClimateCrisis, BerkshireSwash
+
+*/
